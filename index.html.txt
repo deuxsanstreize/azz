@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magasin de Vêtements en Ligne</title>
+
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Vérifie que le fichier CSS s'appelle bien "style.css" -->
+</head>
+<body>
+    <header>
+        <h1>Magasin de Vêtements</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Panier (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <!-- Exemple de produit -->
+        <div class="product">
+            <img src="httpsvia.placeholder.com300" alt="Vêtement 1">
+            <h3>T-shirt Blanc</h3>
+            <p>Prix : 1€</p>
+            <button class="add-to-cart" data-name="T-shirt Blanc" data-price="1">Ajouter au panier</button>
+        </div>
+        <!-- Autres produits... -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Magasin de Vêtements. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script> <!-- Vérifie que le fichier JS s'appelle bien "script.js" -->
+</body>
+</html>
